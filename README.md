@@ -1,5 +1,5 @@
 # go-asns
-Get a list of unique Autonomous System Numbers matching a list of IPs from stdin. 
+Get a list of unique Autonomous System Numbers owning the IPs from stdin. 
 
 ## Usage
 ``` bash
