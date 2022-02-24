@@ -45,7 +45,7 @@ func whois(ip string) string {
 	out, err := exec.Command("bash", "-c", command).Output()
 
 	if err != nil {
-		fmt.Printf("%s", err)
+		log.Println(err)
 	}
 
 	return string(out[:])
